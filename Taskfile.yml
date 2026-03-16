@@ -1,0 +1,31 @@
+version: "3"
+
+tasks:
+  clean:
+    desc: Remove build output
+    cmds:
+      - rm -rf dist
+
+  build:chrome:
+    desc: Build Chrome extension zip
+    cmds:
+      - mkdir -p dist/chrome
+      - cp src/manifest.json dist/chrome/
+      - cp src/rules.json dist/chrome/
+      - cp -r src/icons dist/chrome/
+      - cd dist/chrome && zip -r ../fuck_translate-chrome.zip .
+
+  build:firefox:
+    desc: Build Firefox extension zip
+    cmds:
+      - mkdir -p dist/firefox
+      - cp src/manifest.json dist/firefox/
+      - cp src/rules.json dist/firefox/
+      - cp -r src/icons dist/firefox/
+      - cd dist/firefox && zip -r ../fuck_translate-firefox.zip .
+
+  build:
+    desc: Build both Chrome and Firefox extensions
+    deps:
+      - build:chrome
+      - build:firefox
