@@ -1,4 +1,4 @@
-# fuck_translate
+# f_translate
 
 A browser extension that strips the `?tl=` query parameter from Reddit URLs, preventing unwanted auto-translation that Reddit applies for regional or logged-out users.
 
@@ -33,8 +33,8 @@ task build
 ```
 
 This produces:
-- `dist/fuck_translate-chrome.zip`
-- `dist/fuck_translate-firefox.zip`
+- `dist/f_translate-chrome.zip`
+- `dist/f_translate-firefox.zip`
 
 Other commands:
 - `task clean` -- remove the `dist/` directory

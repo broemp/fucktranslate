@@ -1,10 +1,10 @@
-# Privacy Policy -- fuck_translate
+# Privacy Policy -- f_translate
 
 **Last updated:** 2026-03-16
 
 ## Data Collection
 
-fuck_translate does not collect, store, transmit, or process any user data. No personal information, browsing history, cookies, or analytics are gathered.
+f_translate does not collect, store, transmit, or process any user data. No personal information, browsing history, cookies, or analytics are gathered.
 
 ## How It Works
 

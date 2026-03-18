@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "fuck_translate",
+  "name": "f_translate",
   "version": "1.0.0",
   "description": "Strips the ?tl= query parameter from Reddit URLs to prevent unwanted auto-translation.",
   "permissions": ["declarativeNetRequest"],
@@ -21,7 +21,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "fuck_translate@broemp",
+      "id": "f_translate@broemp",
       "strict_min_version": "113.0"
     }
   }
